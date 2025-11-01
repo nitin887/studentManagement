@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Include Spring Boot's default logging configurations -->
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <!-- 
+        Set the log level for your application's packages.
+        'DEBUG' is useful for development to see more detailed logs.
+        You can change this to 'INFO' for production.
+    -->
+    <logger name="com.studentManagementSystem.studentManagement" level="DEBUG"/>
+
+    <!-- 
+        You can optionally set the log level for Spring's own packages.
+        'INFO' is usually sufficient.
+    -->
+    <logger name="org.springframework" level="INFO"/>
+
+</configuration>
